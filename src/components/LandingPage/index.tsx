@@ -56,8 +56,8 @@ export const LandingPage: React.FC<LandingPageProps> = (
         height={"100vh"}
         bgImage={
           colorMode === "dark"
-            ? "/background-dark.png"
-            : "/background-white.png"
+            ? "background-dark.png"
+            : "background-white.png"
         }
         bgRepeat="no-repeat"
       >
@@ -131,7 +131,7 @@ export const LandingPage: React.FC<LandingPageProps> = (
                 animate={{ y: 0, transition: { type: "spring" } }}
               >
                 <Image
-                  src="/landing-page-illustration.svg"
+                  src="landing-page-illustration.svg"
                   alt="illustration"
                   width={{ base: "344px", sm: "100%" }}
                   height={{ base: "259px", sm: "100%" }}
