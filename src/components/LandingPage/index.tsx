@@ -56,8 +56,8 @@ export const LandingPage: React.FC<LandingPageProps> = (
         height={"100vh"}
         bgImage={
           colorMode === "dark"
-            ? "background-dark.png"
-            : "background-white.png"
+            ? "/background-dark.png"
+            : "/background-white.png"
         }
         bgRepeat="no-repeat"
       >
