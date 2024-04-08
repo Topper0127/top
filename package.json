@@ -46,7 +46,7 @@
     "react-google-recaptcha": "^2.1.0",
     "react-hook-form": "^7.37.0",
     "react-icons": "^4.4.0",
-    "react-scroll": "^1.8.8"
+    "react-scroll": "^1.9.0"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^13.0.2",
