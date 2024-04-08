@@ -1,0 +1,48 @@
+.logo-container {
+  transition: 0.5s;
+}
+
+.logo-container:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+  transform: rotate(-360deg);
+}
+
+.logo-container #logo {
+  -webkit-animation: spin 1s linear 1.5s 1;
+  -moz-animation: spin 1s linear 1.5s 1;
+  animation: spin 1s linear 1.5s 1;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+}
+
+@-moz-keyframes spin {
+  0% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+  70% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+  70% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+  70% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

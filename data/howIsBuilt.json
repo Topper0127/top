@@ -1,0 +1,35 @@
+{
+  "intro": "In case you're wondering how this site was built, you can check source code in github, but here's a quick overview of how things are done.",
+  "technologies": [
+    {
+      "type": "Framework",
+      "name": "Next.js",
+      "link": "https://nextjs.org/"
+    },
+    {
+      "type": "Deployment",
+      "name": "Vercel",
+      "link": "https://vercel.com/"
+    },
+    {
+      "type": "Language",
+      "name": "TypeScript",
+      "link": "https://typescriptlang.org/"
+    },
+    {
+      "type": "Styling",
+      "name": "Chakra UI",
+      "link": "https://chakra-ui.com"
+    },
+    {
+      "type": "Designing",
+      "name": "Figma",
+      "link": "https://figma.com/"
+    },
+    {
+      "type": "Animations",
+      "name": "Framer Motion",
+      "link": "https://framer.com/motion"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "hafidziti.dev",
+  "description": "My personal website",
+  "version": "1.0.0",
+  "homepage": "https://Topper0127.github.io/top",
+  "author": {
+    "name": "Hafid Ziti",
+    "email": "hello@hafidziti.dev",
+    "url": "https://hafidziti.dev"
+  },
+  "keywords": [
+    "portfolio",
+    "personal",
+    "website",
+    "nextjs",
+    "chakra-ui"
+  ],
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "lint:fix": "eslint --fix --ext .js,.jsx,.ts,.tsx --fix-type problem .",
+    "format": "prettier --write **/*.{js,tsx,json}",
+    "prepare": "husky install",
+    "deploy": "next build && next export && npx gh-pages -d out"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.11",
+    "@chakra-ui/react": "^2.4.1",
+    "@chakra-ui/theme-tools": "2.0.5",
+    "@emotion/react": "11.10.5",
+    "@emotion/styled": "11.10.5",
+    "chart.js": "^3.9.1",
+    "framer-motion": "^7.5.4",
+    "hamburger-react": "^2.5.0",
+    "next": "latest",
+    "nodemailer": "^6.8.0",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-dom": "^18.2.0",
+    "react-google-recaptcha": "^2.1.0",
+    "react-hook-form": "^7.37.0",
+    "react-icons": "^4.4.0",
+    "react-scroll": "^1.8.8"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^13.0.2",
+    "@types/node": "^18.11.0",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.9",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.41.0",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.10",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "typescript": "4.8.4"
+  }
+}

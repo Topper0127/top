@@ -1,0 +1,20 @@
+{
+  "links": [
+    {
+      "name": "About",
+      "route": "about"
+    },
+    {
+      "name": "Projects",
+      "route": "projects"
+    },
+    {
+      "name": "Skills",
+      "route": "skills"
+    },
+    {
+      "name": "Contact",
+      "route": "contact"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "first_name": "Hafid",
+  "last_name": "ZITI",
+  "summary": "A self-taught front-end developer, my passion is to provide well tested and maintainable code, pixel-perfect user interfaces and the best user experience using the latest technologies.",
+  "about": "Currently, I’m working @ VISEO as a front-end developer, I live in Grenoble France, with more than 4 years of professional experience I transform ideas into reality using JS, with latest technologies such as React.js, Node.js, Next.js, Redux, Angular2+, I care about code readability and maintainability and actively I use linters and code analysis tools like Prettier, ESLint, StyleLint, I find happiness in being a better me today than I was yesterday. Scroll down to see some of the projects I've been working on.",
+  "socials": [
+    {
+      "name": "linkedin",
+      "link": "https://www.linkedin.com/in/hafid-ziti"
+    },
+    { "name": "github", "link": "https://github.com/HafidZiti" },
+    { "name": "twitter", "link": "https://twitter.com/hafidziti" }
+  ]
+}
