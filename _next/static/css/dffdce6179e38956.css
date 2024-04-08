@@ -1,0 +1,1 @@
+.logo-container{transition:.5s}.logo-container:hover{opacity:.7;transition:.5s;transform:rotate(-1turn)}.logo-container #logo{animation:spin 1s linear 1.5s 1;transform-origin:center}@keyframes spin{0%{transform:rotate(-1turn)}70%{transform:rotate(1turn)}}
