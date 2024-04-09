@@ -10,7 +10,7 @@ export default class Document extends NextDocument {
             rel="icon"
             sizes="any"
             type="image/svg+xml"
-            href="/favicon.svg"
+            href="./favicon.svg"
           />
         </Head>
         <body>
