@@ -1,6 +1,6 @@
 import NextDocument, { Html, Head, Main, NextScript } from "next/document";
 import { ColorModeScript } from "@chakra-ui/react";
- 
+
 export default class Document extends NextDocument {
   render() {
     return (
@@ -10,7 +10,7 @@ export default class Document extends NextDocument {
             rel="icon"
             sizes="any"
             type="image/svg+xml"
-            href="favicon.svg"
+            href="/favicon.svg"
           />
         </Head>
         <body>
