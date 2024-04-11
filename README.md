@@ -1,18 +1,13 @@
-<div align="center">
-  <img alt="HZ logo" src="docs/hz-logo.svg" height="64" />
-</div>
+
 
 <div align="center">
   <strong>
-    hafidziti.dev
+    Topper0127
   </strong>
 </div>
   
 <br>
-  
-<p align="center">
-Designed and created with ❤️+☕ by <a href="https://hafidziti.dev">Hafid ZITI</a>.
-</p>
+
 
 <p align="center">
     <img src="https://img.shields.io/github/workflow/status/HafidZiti/hafidziti.dev/ci" alt="Build status"/>
